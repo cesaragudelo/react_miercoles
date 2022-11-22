@@ -5,7 +5,7 @@ let integrantes=[
         nombre:"noodle",
         instrumento:"guitarra",
         edad:"32",
-        fotografia:"https://firebasestorage.googleapis.com/v0/b/cineca-e943f.appspot.com/o/gorillas_4.jpg?alt=media&token=b3b60dde-2136-47c6-aeb0-7f13d5ad1838"
+        fotografia:"https://firebasestorage.googleapis.com/v0/b/cineca-e943f.appspot.com/o/gorillaz2d.jpg?alt=media&token=0a4d193d-42d1-4161-8122-bf076c109685"
     },
     {
         
@@ -48,10 +48,10 @@ let integrantes=[
                             </h4>
                             <br/>
                             <h5 className="text-center">
-                                {integrante.edad}
+                                Edad: {integrante.edad}
                             </h5>
                             <h5 className="text-center">
-                                {integrante.instrumento}
+                               Rol {integrante.instrumento}
                             </h5>
                         </div>
                     </div>
