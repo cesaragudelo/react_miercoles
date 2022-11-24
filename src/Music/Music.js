@@ -44,7 +44,7 @@ console.log(canciones)
                                 <h4 className="text-center ">
                                     Nombre cancion: {cancion.name}
                                 </h4>
-                                <audio controls="controls"src={cancion.preview_url} >{}</audio>
+                                <audio controls="controls"src={cancion.preview_url} ></audio>
                                
                             </div>
                         </div>
